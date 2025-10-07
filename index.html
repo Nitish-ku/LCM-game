@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCM Leapfrog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LCM Leapfrog</h1>
+        <div class="game-container">
+            <div class="number-line-container">
+                <div class="number-line"></div>
+            </div>
+            <div class="frogs-container">
+                <div class="frog" id="frog1"></div>
+                <div class="frog" id="frog2"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn">Start Game</button>
+            <div class="number-inputs">
+                <label for="num1">Frog 1 Jumps:</label>
+                <input type="number" id="num1" min="1" max="10" value="3">
+                <label for="num2">Frog 2 Jumps:</label>
+                <input type="number" id="num2" min="1" max="10" value="5">
+            </div>
+        </div>
+        <div class="message-container">
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
